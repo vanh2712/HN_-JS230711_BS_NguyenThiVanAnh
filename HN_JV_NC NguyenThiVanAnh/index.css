@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    display: flex;
+}
+.container {
+    width: 35%;
+    margin: 0 auto;
+    margin-right: 30px;
+}
+
+
+.wrapper_student{
+    margin-top: 30px;
+    background-color: #a9dcd1;
+    border: 1px solid black;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.wrapper_student h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 40px;
+}
+
+
+
+/* css form group text  */
+.form-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.form-group input {
+    padding: 6px 12px;
+    width: 75%;
+    border-radius: 5px;
+    border: 1px solid rgb(118, 117, 117);
+}
+
+.form-group  label {
+    width: 25%;
+    
+}
+
+/* css cho phan gioi tinh  */
+.form-group-radio {
+    display: flex ;
+}
+
+.form-group-radio > label {
+    width: 25%;
+}
+
+.form-group-radio .content_radio {
+    width: 85%;
+}
+
+.form-group-radio .content_radio input {
+    width: 20px;
+}
+
+.form-group-radio .content_radio {
+    display: flex;
+    
+}
+
+.form-group-radio .content_radio .item {
+    display: flex;
+    align-items: center;
+    margin-left: 17px;
+    
+}
+
+.form-group-radio .content_radio .item  label {
+    margin-left: 7px;
+}
+
+.form-group-radio .content_radio .item:nth-child(1) {
+    margin-left: 0;
+}
+
+
+.form-group label, .form-group-radio > label {
+    font-weight: 600;
+}
+
+
+.btn {
+    padding: 6px 12px;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.btn:hover{
+    cursor: pointer;
+}
+.btn-primary {
+    background-color: #436969;
+    margin-top: 20px;
+    padding: 7px 20px;
+    
+}
+
+.button {
+    text-align: center;
+}
+
+/* style table */
+
+.table_list {
+    width: 65%;
+    margin: 0 auto;
+    margin-top: 30px;
+
+}
+
+.table_list .header {
+    border: 1px solid black;
+    background-color: rgb(214, 231, 225);
+    padding: 20px 0;
+    border-radius: 5px;
+}
+
+.table_list h2 {
+    text-align: center;
+    font-size: 40px;
+
+
+}
+
+.styled-table {
+    border-collapse: collapse;
+    margin:0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    width: 100%;
+}
+.styled-table thead tr {
+    background-color: #009879;
+    color: rgb(228, 223, 223);
+    text-align: left;
+}
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+}
+.styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+
+.styled-table td button {
+    background-color: #009879;
+    border: none;
+    color: white;
+    padding: 10px 10px;
+    border-radius: 5px;
+}
+
+.styled-table tbody .btn-blue {
+    background-color: rgb(106, 129, 145);
+    
+}
+
+.styled-table tbody .btn-danger {
+    background-color: rgb(240, 13, 13);
+}
+
+.hide {
+    display: none;
+}
+
+.serch_and_sort {
+    display: flex;
+    margin-top: 10px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.serch_and_sort input {
+    padding: 6px 12px;
+    border-radius: 5px;
+    border: none;
+}
+
+
+.search label {
+    background-color: #ccdeda;
+    padding: 7px;
+    border-radius: 5px;
+}
+.search button {
+    background-color: rgb(146, 144, 144);
+}
+.search label:hover{
+    cursor: pointer;
+}
+.sort {
+    padding: 0 10px;
+}
+
+.sort button {
+    padding: 7px;
+    background-color: rgb(146, 144, 144);
+}
+table, th, td {
+    border: 1px solid;
+  }
